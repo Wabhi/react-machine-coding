@@ -1,3 +1,10 @@
-h1{
-  text-align: center
+.star::before{
+  content: "\2606";
+  font-size: 35px;
+  cursor: pointer;
+}
+.star.rated::before{
+  content: "\2605";
+  font-size:35px;
+  color: tomato;
 }

@@ -1,12 +1,11 @@
 
 import './App.css';
+import StarRating from './components/StarRating';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>REACT MACHINE CODING</h1>
-      </header>
+     <StarRating limit={10} rating={3}/>
     </div>
   );
 }
