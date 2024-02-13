@@ -4,6 +4,7 @@ import ImageCrousal from './components/ImageCrousal';
 import SeachItemFromList from './components/SeachItemFromList';
 import ShowDataInTable from './components/ShowDataInTable';
 import StarRating from './components/StarRating';
+import StopWatch from './components/StopWatch';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
      {/* <StarRating limit={10} rating={3}/> */}
      {/* <SeachItemFromList/> */}
      {/*<ImageCrousal/>*/}
-     <ShowDataInTable/>
+     {/* <ShowDataInTable/> */}
+     <StopWatch/>
     </div>
   );
 }
